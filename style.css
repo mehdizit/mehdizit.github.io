@@ -15,18 +15,21 @@ p
 .sec1,.sec2,.sec3,.sec4,.sec5
 {
 	width: 50%;
-    border: 1px solid black;
     text-align: justify;
     padding: 2%;
     margin: 15%;
+    border: 6px black ridge;
+    border-radius: 10px 5px 10px 5px;
+
+
 }
 h1
 {
-	color: red;
+	color: yellow;
 	font-size: 37px;
-	font-style: oblique;
 	text-align: center;
-	border-radius: 3px;
+	text-shadow: 20px 15px 10px green;
+
 
 }
 h4,em
@@ -38,7 +41,7 @@ h2
 	color: #0f2cbd;
 	font-style: italic;
 	text-decoration: underline;
-
+	text-shadow: 2px 2px 4px black;
 }
 ul
 {
@@ -86,8 +89,9 @@ a[title="Cliquez ici"]
 }
 body
 {
-	background: silver;
+	background: gray;
 	border: 6px black double;
+	
 
 
 }
@@ -97,3 +101,10 @@ body
 	text-decoration: overline;
 	margin: 20%;
 }
+.m
+{
+	padding: 2%;
+    margin: 15%;
+}
+
+
